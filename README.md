@@ -18,11 +18,12 @@ type-1 is used to send join to inform others
 type-2 is used to send message
 type-3 is used for sending nickname of joined client to all other connected ones.
 
-##Install:
+## Install:
 
 make
 
-##Usage:
+## Usage:
+
 run server: ./scr -l -i 127.0.0.1 -p 12000
 
 run client1: ./scr -i 127.0.0.1 -p 12000 -n user1 -f log-user1 -v
